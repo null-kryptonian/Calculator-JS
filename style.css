@@ -1,6 +1,9 @@
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: black;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #container{
@@ -60,7 +63,7 @@ body{
     cursor: pointer;
 }
 
-.operator;active, .number:active{
+.operator:active, .number:active{
     font-size: 13px;
 }
 
